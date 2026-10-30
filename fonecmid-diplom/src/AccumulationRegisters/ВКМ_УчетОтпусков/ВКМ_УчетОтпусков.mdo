@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b766a9d2-e405-40c1-81d9-345b03c92db1">
+  <producedTypes>
+    <selectionType typeId="3fc2d701-0e44-4725-869b-ee0ed1096b9e" valueTypeId="016f492d-5613-43f1-a1c7-79b1a0902a70"/>
+    <listType typeId="f3422ee0-da8f-4e10-8bc3-ad1e4cf3c55c" valueTypeId="c189252f-0b68-4798-b48c-ef81d4ae6ec2"/>
+    <managerType typeId="2ecb1ed4-c720-4662-8618-3b5faf0df345" valueTypeId="8506f062-c75f-41e9-8f3e-b83e2f837477"/>
+    <recordSetType typeId="82cfda8a-df40-4bfc-a057-1bdc81ce1fee" valueTypeId="6b620793-efb4-4762-adc0-6c1bec2f141c"/>
+    <recordKeyType typeId="10bbb643-264c-4f8d-8d03-76255496e891" valueTypeId="a2a4d25f-34bd-499c-bd60-b1906900cab7"/>
+    <recordType typeId="16c6cb42-5840-4abb-86bd-f4f10bd4154a" valueTypeId="8f34d8fc-d2db-4139-a9d9-973c16a3d32c"/>
+  </producedTypes>
+  <name>ВКМ_УчетОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="acd46fad-9cd6-4b76-88dd-a43cc2a17908">
+    <name>ВКМ_Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВКМ_Число</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="2753ee7e-5554-4dbc-af5e-6b0bfcab5c6d">
+    <name>ВКМ_Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

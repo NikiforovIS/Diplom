@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f73358f2-c53c-4260-a005-7168868a6785">
+  <producedTypes>
+    <containerType typeId="197fed12-f7e5-4848-9d27-97f155195ac4" valueTypeId="67cc5cab-c285-4640-a897-0a48b6c5aa15"/>
+  </producedTypes>
+  <name>ВКМ_Число</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ число</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

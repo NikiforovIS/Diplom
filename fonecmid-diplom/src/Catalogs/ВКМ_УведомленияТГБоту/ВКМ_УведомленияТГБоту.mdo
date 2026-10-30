@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bbdc417-4ec2-4100-bd40-42a6287cd5dc">
+  <producedTypes>
+    <objectType typeId="31f8e2e3-2576-4878-bdb3-273ed201519d" valueTypeId="7075b5ba-0c10-407e-acc0-1decc45ff854"/>
+    <refType typeId="8c68f014-b879-4bdb-8e8c-f0aadcb0218e" valueTypeId="aba8b9fc-beaf-4ae0-839d-ad71439ca15a"/>
+    <selectionType typeId="384a5387-0025-40c7-9506-17bc73431e52" valueTypeId="4ae3ef10-70ce-4eb4-8e89-83ba207508d5"/>
+    <listType typeId="d1053ede-b3ec-48e8-845e-df46dffdaeb0" valueTypeId="a3ea8f54-3db2-4665-b024-3b3e5d0920ed"/>
+    <managerType typeId="5022d85d-06e3-441e-8774-8564d1d2c4c8" valueTypeId="eedfb4ae-f4db-492f-87e5-7dc034cbefdf"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТГБоту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления в ТГ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уведомление в ТГ</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Уведомления в ТГ</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3c4d410b-f371-471b-bb78-ed97082f05ac">
+    <name>ВКМ_ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
