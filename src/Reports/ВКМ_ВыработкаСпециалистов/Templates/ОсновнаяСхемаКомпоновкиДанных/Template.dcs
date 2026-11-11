@@ -64,8 +64,8 @@
 	ВКМ_ВыполненныеСотрудникомРаботыОбороты.ВКМ_ЧасовКОплатеОборот КАК ЧасовКОплате,
 	ВКМ_ВыполненныеСотрудникомРаботыОбороты.ВКМ_СуммаКОплатеОборот КАК СуммаКОплате
 ИЗ
-	РегистрНакопления.ВКМ_ВыполненныеСотрудникомРаботы.Обороты(&amp;НачалоПериода, &amp;КонецПериода, Месяц,
-		{ВКМ_Сотрудник = &amp;Сотрудник}) КАК ВКМ_ВыполненныеСотрудникомРаботыОбороты</query>
+	РегистрНакопления.ВКМ_ВыполненныеСотрудникомРаботы.Обороты(,, Месяц, {ВКМ_Сотрудник = &amp;Сотрудник}) КАК
+		ВКМ_ВыполненныеСотрудникомРаботыОбороты</query>
 	</dataSet>
 	<totalField>
 		<dataPath>СуммаКОплате</dataPath>
@@ -140,7 +140,7 @@
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<settingsVariant>
-		<dcsset:name>Основной</dcsset:name>
+		<dcsset:name>1</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
@@ -167,11 +167,6 @@
 			</dcsset:filter>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>Период</dcscor:parameter>
-					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>ad391068-febf-4676-8933-b013caf6067d</dcsset:userSettingID>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
 				</dcscor:item>
@@ -179,6 +174,16 @@
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Сотрудник</dcscor:parameter>
 					<dcsset:userSettingID>9c3048b9-4cce-4adb-9bc3-7d4bc6210945</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>КонецПериода</dcscor:parameter>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>094371a2-afe3-4567-91ba-ef4159fed1c0</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:conditionalAppearance>

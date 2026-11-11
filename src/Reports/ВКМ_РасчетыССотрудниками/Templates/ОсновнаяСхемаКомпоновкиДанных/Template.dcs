@@ -105,7 +105,7 @@
 	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.ВКМ_СуммаРасход КАК Выплачено,
 	ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты.ВКМ_СуммаКонечныйОстаток КАК КонечныйОстаток
 ИЗ
-	РегистрНакопления.ВКМ_ВзаиморасчетыССотрудниками.ОстаткиИОбороты(&amp;НачалоПериода, &amp;КонецПериода, Месяц,,) КАК
+	РегистрНакопления.ВКМ_ВзаиморасчетыССотрудниками.ОстаткиИОбороты(,, Месяц,,) КАК
 		ВКМ_ВзаиморасчетыССотрудникамиОстаткиИОбороты</query>
 	</dataSet>
 	<totalField>
@@ -175,7 +175,7 @@
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<settingsVariant>
-		<dcsset:name>Основной</dcsset:name>
+		<dcsset:name>Расчёты с сотрудниками</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
@@ -205,6 +205,7 @@
 			</dcsset:filter>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>737165db-131f-4969-901f-2af36bcaa1c4</dcsset:userSettingID>
